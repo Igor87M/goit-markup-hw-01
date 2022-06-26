@@ -1,0 +1,119 @@
+
+:root {
+    --first-text-color: #212121;
+    --second-text-color: #757575;
+    --decoration: none;
+    --link-hover-focus-color: #2196F3;
+    --white-color: #fff;
+}
+
+body {
+    background-color: #fff;
+    color: var(--second-text-color);
+    font-family: Roboto;
+    font-size: 14;
+    line-height: 1.7;
+ }
+
+ /*Site header*/
+
+ .logo {
+    color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26;
+    line-height: 1.2;
+    text-decoration: var(--decoration);
+ }
+
+ .logo > .blue {
+    color: #2196F3;
+ }
+
+ .navigation .link{
+    color: var(--first-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14;
+    line-height: 1.2;
+    text-decoration: var(--decoration);
+ }
+
+ .link:hover,
+ .link:focus {
+    color: var(--link-hover-focus-color);
+ }
+
+.list-item {
+    list-style-type: var(--decoration);
+}
+
+.mail-tel .link {
+    color: var(--second-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14;
+    line-height: 1.2;
+    text-decoration: var(--decoration);
+}
+
+.mail-tel .link:hover,
+.mail-tel .link:focus {
+    color: var(--link-hover-focus-color)
+}
+
+/*Introduction*/
+.h1 {
+    color: var(--white-color);
+    background-color: #000000;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44;
+    line-height: 1.4;
+}
+
+.btn {
+    background-color: var(--link-hover-focus-color);
+    color: var(--white-color);
+    /*text-decoration: var(--decoration);*/
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16;
+    line-height: 1.9;
+}
+
+/*Approach to the client*/
+
+.h3 {
+    color: var(--first-text-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14;
+    line-height: 1.2;
+}
+
+.text {
+    color: var(--second-text-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14;
+    line-height: 1.7;
+}
+
+/*About services*/
+
+.h2 {
+    color: var(--first-text-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36;
+    line-height: 1.2;
+}
+
+.h3 {
+    color: var(--first-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.2;
+}
